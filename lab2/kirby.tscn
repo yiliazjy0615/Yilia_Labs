@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://kvllkpt00k8a"]
+
+[ext_resource type="Texture2D" uid="uid://cjy2ik7xm7ukc" path="res://Kirby icon idea #1.png" id="1_7o6h2"]
+[ext_resource type="Script" path="res://kirby_icon_idea#1.gd" id="2_gf4ku"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="KirbyIconIdea#1" type="Sprite2D" parent="."]
+position = Vector2(170, 145)
+scale = Vector2(0.328804, 0.328804)
+texture = ExtResource("1_7o6h2")
+script = ExtResource("2_gf4ku")
